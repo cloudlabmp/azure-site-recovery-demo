@@ -12,7 +12,9 @@
                 "eastus",
                 "eastus2",
                 "southcentralus",
-                "westus2"
+                "westus2",
+                "westeurope",
+                "northeurope"
             ]
         },
         "secLocation": {
