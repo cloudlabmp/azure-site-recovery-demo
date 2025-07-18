@@ -47,16 +47,16 @@
     },
     "variables": {
         "rcvSvcVltApiVersion": "2022-04-01",
-        "replA2ABeMappingFailover": "a2aberecovery-centralus",
-        "replA2ABeMappingFailBack": "a2abefailback-eastus2",
-        "replA2AFeMappingFailover": "a2arecovery-centralus",
-        "replA2AFeMappingFailBack": "a2afailback-eastus2",
-        "replA2AFabricContDst": "a2areplcon-eastus2",
-        "replA2AFabricContSrc": "a2areplcon-centralus",
+        "replA2ABeMappingFailover": "a2aberecovery-srcrgn",
+        "replA2ABeMappingFailBack": "a2abefailback-dstrgn",
+        "replA2AFeMappingFailover": "a2arecovery-srcrgn",
+        "replA2AFeMappingFailBack": "a2afailback-dstrgn",
+        "replA2AFabricContDst": "a2areplcon-dstrgn",
+        "replA2AFabricContSrc": "a2areplcon-srcrgn",
         "replA2AFabricObjDst": "[concat(parameters('secLocation'),'-a2afabric')]",
         "replA2AFabricObjSrc": "[concat(parameters('priLocation'),'-a2afabric')]",
-        "replNetworkMappingSrc": "a2acentustoeastus2nwmap",
-        "replNetworkMappingDst": "a2aeastus2tocentusnwmap"
+        "replNetworkMappingSrc": "a2asrcrgnto2nwmap",
+        "replNetworkMappingDst": "a2a2tosrcrgnnwmap"
     },
     "resources": [
         {
