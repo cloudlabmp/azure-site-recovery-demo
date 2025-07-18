@@ -104,7 +104,7 @@
         "templateUriReplComp": "[concat(uri(deployment().properties.templateLink.uri,'deploy-replication-components.json'))]",
         "templateUriReplItem": "[concat(uri(deployment().properties.templateLink.uri,'deploy-replication-item.json'))]",
         "templateUriWin": "[concat(uri(deployment().properties.templateLink.uri,'deploy-windows-vm.json'))]",
-        "vmSku": "Standard_D4s_v5",
+        "vmSku": "Standard_D4s_v3",
         "vmWinPriServer1Name": "vmwpri1cffe",
         "vmWinPriServer1Ip": "10.0.2.5",
         "vmWinPriServer2Name": "vmwpri1cfbe",
