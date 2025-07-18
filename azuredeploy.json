@@ -14,7 +14,9 @@
                 "southcentralus",
                 "westus2",
                 "westeurope",
-                "northeurope"
+                "northeurope",
+                "uksouth",
+                "ukwest"
             ]
         },
         "secLocation": {
@@ -29,7 +31,9 @@
                 "southcentralus",
                 "westus2",
                 "westeurope",
-                "northeurope"
+                "northeurope",
+                "uksouth",
+                "ukwest"
             ]
         },
         "vmAdminUsername": {
