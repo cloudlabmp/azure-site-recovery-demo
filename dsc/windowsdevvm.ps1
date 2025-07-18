@@ -56,6 +56,8 @@ configuration WindowsDevVM {
             DiskId = 1
             DiskIdType = "Number"
             DriveLetter= "F"
+            FSFormat = "NTFS"           # Add this line
+            AllowDestructive = $false   # Add this line
             DependsOn = "[xWaitForDisk]Disk1"
         }
     }
