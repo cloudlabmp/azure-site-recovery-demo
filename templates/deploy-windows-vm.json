@@ -334,7 +334,7 @@
         },
         "dataDiskType": {
             "type": "string",
-            "value": "[variables('osDiskType')]"
+            "value": "[variables('dataDiskType')]"
         },
         "osManagedDiskResId": {
             "type": "string",
@@ -342,7 +342,7 @@
         },
         "osDiskType": {
             "type": "string",
-            "value": "[variables('dataDiskType')]"
+            "value": "[variables('osDiskType')]"
         },
         "vmResourceId": {
             "type": "string",
